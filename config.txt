@@ -1,15 +1,14 @@
 {
 # 微信公众号配置
-"app_id": "wx5c178f9164a4ef6d",
-"app_secret": "7d3633112329c6b37d175b50a9461cc9",
-"template_id": "lcUa3QnBSmJxw96Q0OtDLOQPnlVXhK8LxxECNqXLe7g",
-"user": ["ob8cE6YyPBBGY9t5607ThCJtGwrw"], # 接收消息的微信号，多个微信用英文逗号间隔，例如["wx1", "wx2"]
+"app_id": "wx32089ed8c91ffe20",
+"app_secret": "f84a283765d174be123d90e9f57cd1a7",
+"template_id": "eGsOlaYpJgDKCH-rYkvP6-XlgsjITR7HIDKHKLru1pk",
+"user": ["oAkDm5reYqvlBkFZU-PSovcsOZpY","oAkDm5ihUA0rHEu3-aZO8cO2e01M"], # 接收消息的微信号，多个微信用英文逗号间隔，例如["wx1", "wx2"]
 # 信息配置
 "weather_key": "fc6fa21f5c9342b4b6d9b2741028c29a",
 "region": "北京市",
-"birthday1": {"name": "安沐晨", "birthday": "r2002-02-18"}, # 生日1，姓名和生日，生日若为农历在最前面加上r即可
-"birthday2": {"name": "桑斌", "birthday": "r2002-02-18"}, # 生日2，姓名和生日，生日若为农历在最前面加上r即可
-"love_date": "2021-09-13", # 在一起的日期，不支持农历
+"birthday1": {"name": "莹莹", "birthday": "r2002-08-12"}, # 生日1，姓名和生日，生日若为农历在最前面加上r即可
+"love_date": "2022-04-30", # 在一起的日期，不支持农历
 "note_ch": "", # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
 "note_en": "" # 金句英文
 }
