@@ -13,14 +13,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: checkout actions
-    - uses: actions/checkout@v1
-
+    - uses: actions/checkout@v2
     - name: Set up Python 3.9
       uses: actions/setup-python@v2
       with:
         python-version: 3.9
-
+    - name: Install requirements
       run: |
-        python main.py
-		
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: SignIn
+      run: |
+        python ./main.py
