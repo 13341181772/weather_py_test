@@ -1,4 +1,4 @@
-name: Python application
+name: amc- auto action
 
 on:
   # 在push代码到仓库时执行
